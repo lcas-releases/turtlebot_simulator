@@ -1,0 +1,93 @@
+ros-kinetic-turtlebot-stage (2.2.3-0xenial) xenial; urgency=high
+
+  * fixed maintainers
+  * Fixed amcl include path
+    Fixed include path for turtlebot_navigation/launch/includes/amcl/amcl.launch.xml. https://github.com/turtlebot/turtlebot_apps/commit/cc2671666e8529677e6757fe78de4ff625f946e5
+  * Contributors: Clyde McQueen, Marc Hanheide
+
+ -- Marc Hanheide <marc@hanheide.net>  Sun, 25 Jun 2017 23:00:00 -0000
+
+ros-kinetic-turtlebot-stage (2.2.2-0xenial) xenial; urgency=high
+
+  * view frame is now base_link closes #51 <https://github.com/turtlebot/turtlebot_simulator/issues/51>
+  * Contributors: Jihoon Lee
+
+ -- Marc Hanheide <marc@hanheide.net>  Tue, 15 Sep 2015 23:00:00 -0000
+
+ros-kinetic-turtlebot-stage (2.2.1-0xenial) xenial; urgency=high
+
+  * turtlebot_stage: add turtlebot_navigation dependency
+  * Contributors: Gaël Ecorchard
+
+ -- Marc Hanheide <marc@hanheide.net>  Thu, 06 Aug 2015 23:00:00 -0000
+
+ros-kinetic-turtlebot-stage (2.2.0-0xenial) xenial; urgency=high
+
+  * Adds border extension to map to fix map scaling / position in stage
+  * Added changes in the stage launch file undone before because of the merge
+  * Merged
+  * Moved env fold inside stage
+  * Revert "Stage launch use env variables"
+  * Small fix for wrong file name of env script
+  * Added support for map and world file through env variables
+  * remove annotation and param install rule
+  * updated rviz configuration for dwa.
+  * add the trajectory cloud to stage's rviz view.
+  * stage only permits 'square' robots, so make sure our square fits within
+    the turtlebot defined circle otherwise it collides when it normally
+    wouldn't.
+  * redirect all params and launchers at the real turtlebot configuration files and cleanup, #21 <https://github.com/turtlebot/turtlebot_simulator/issues/21>.
+  * remove unused plugins and add the cost cloud.
+  * add turtlebot_stage
+  * Contributors: Alexander Reimann, Daniel Stonier, Jihoon Lee
+  * Adds border extension to map to fix map scaling / position in stage
+  * Added changes in the stage launch file undone before because of the merge
+  * Merged
+  * Moved env fold inside stage
+  * Revert "Stage launch use env variables"
+  * Small fix for wrong file name of env script
+  * Added support for map and world file through env variables
+  * remove annotation and param install rule
+  * updated rviz configuration for dwa.
+  * add the trajectory cloud to stage's rviz view.
+  * stage only permits 'square' robots, so make sure our square fits within
+    the turtlebot defined circle otherwise it collides when it normally
+    wouldn't.
+  * redirect all params and launchers at the real turtlebot configuration files and cleanup, #21 <https://github.com/turtlebot/turtlebot_simulator/issues/21>.
+  * remove unused plugins and add the cost cloud.
+  * add turtlebot_stage
+  * Contributors: Alexander Reimann, Daniel Stonier, Jihoon Lee
+
+ -- Marc Hanheide <marc@hanheide.net>  Tue, 30 Dec 2014 00:00:00 -0000
+
+ros-kinetic-turtlebot-stage (2.1.1-0xenial) xenial; urgency=high
+
+
+
+ -- Marc Hanheide <marc@hanheide.net>  Sun, 13 Oct 2013 23:00:00 -0000
+
+ros-kinetic-turtlebot-stage (2.1.0-0xenial) xenial; urgency=high
+
+
+
+ -- Marc Hanheide <marc@hanheide.net>  Sun, 01 Sep 2013 23:00:00 -0000
+
+ros-kinetic-turtlebot-stage (2.0.0-0xenial) xenial; urgency=high
+
+
+
+ -- Marc Hanheide <marc@hanheide.net>  Sun, 11 Aug 2013 23:00:00 -0000
+
+ros-kinetic-turtlebot-stage (1.9.1-0xenial) xenial; urgency=high
+
+
+
+ -- Marc Hanheide <marc@hanheide.net>  Wed, 02 Jan 2013 00:00:00 -0000
+
+ros-kinetic-turtlebot-stage (1.9.0-0xenial) xenial; urgency=high
+
+
+
+ -- Marc Hanheide <marc@hanheide.net>  Sat, 22 Dec 2012 00:00:00 -0000
+
+
